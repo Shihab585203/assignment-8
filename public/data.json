@@ -1,0 +1,65 @@
+[
+  {
+    "id": "6335d366c575c516d12bc84a",
+    "title": "Deep Inner Peace",
+    "description": "Alleviate stress and anxiety, experience inner calm and uncover your true self with meditation. Take it personally for fit.",
+    "img": "https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+    "time": 30
+  },
+  {
+    "id": "6335d366b4ed808d51424a1d",
+    "title": "The Timeless Teachings of Yoga",
+    "description": "Modern society has barely begun to uncover the treasure trove and secrets of Yoga.",
+    "img": "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time": 20
+  },
+  {
+    "id": "6335d366fdf6563b59978853",
+    "title": "Daily Cup of Yoga",
+    "description": "A comfortable place to fill up on all things yoga. The cup of yoga appears to be not quite daily anymore",
+    "img": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time": 40
+  },
+  {
+    "id": "6335d366b461df14a66c6413",
+    "title": "Practice Eagle Pose",
+    "description": "Many of us mistakenly assume it is someone who practices yoga and meditation every day",
+    "img": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time": 50
+  },
+  {
+    "id": "6335d3669789f930aa80a419",
+    "title": " Core Sequence Will Help You Nail",
+    "description": "In yoga, the Plank Pose is a basic foundational asana in most strength-based classes—",
+    "img": "https://images.unsplash.com/photo-1553531889-65d9c41c2609?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time": 25
+  },
+  {
+    "id": "6335d3664ea4db3f914af70c",
+    "title": "Finding Balance in Any Yoga Pose",
+    "description": "The concern I hear most from students, aside from not being flexible, is “I’m bad at balancing.",
+    "img": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time": 40
+  },
+  {
+    "id": "6335d36654b706f65cdac77b",
+    "title": "I Work for Yoga Journal",
+    "description": "In college, I did a lot of running, spinning, and lifting. (The smell of that musty gym still lingers on some of my t-shirts.)",
+    "img": "https://images.unsplash.com/photo-1504025468847-0e438279542c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1269&q=80",
+    "time": 55
+  },
+  {
+    "id": "6335d366911cae1687a73e12",
+    "title": "What the New Moon  ",
+    "description": "The new Moon in Libra on September 25, 2022, is an opportunity to define your relational space.",
+    "img": "https://images.unsplash.com/photo-1616803689943-5601631c7fec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time": 35
+  },
+  {
+    "id": "6335d366fc82cf3c124d86b7",
+    "title": "Practice Eagle Pose",
+    "description": "Many of us mistakenly assume it is someone who practices yoga and meditation every day, or who can come into each posture’s “full expression”",
+    "img": "https://images.unsplash.com/photo-1608138278545-366680accc66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time": 50
+  }
+]
