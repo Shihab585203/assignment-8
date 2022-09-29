@@ -2,6 +2,7 @@
 import React from 'react';
 import Card from '../Card/Card';
 import Header from '../Header/Header';
+import Sidebar from '../Sidebar/Sidebar';
 
 const Home = () => {
 
@@ -14,7 +15,7 @@ const Home = () => {
             </div>
 
             <div className='col-3'>
-                right side
+                <Sidebar></Sidebar>
             </div>
         </section>
     );
