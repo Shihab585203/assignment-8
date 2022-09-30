@@ -30,7 +30,7 @@ const Activites = () => {
                 <div className='grid-items'>
                     {
                         activites.map(item => <Item
-                            kye={item.id}
+                            key={item.id}
                             item={item}
                             handleAddToLIst={handleAddToLIst}
                         ></Item>)

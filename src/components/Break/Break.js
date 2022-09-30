@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Break.css";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Break = ({ list }) => {
   let times = 0;
@@ -9,9 +9,9 @@ const Break = ({ list }) => {
     times = parseFloat(times + time.time);
   }
   const [seconds, setSeconds] = useState([]);
+
   //break value
   const [breakTime, setBreakTime] = useState(0);
-
 
   useEffect(() => {
     fetch("data2.json")
@@ -20,8 +20,8 @@ const Break = ({ list }) => {
   }, []);
   console.log(seconds);
   //Toast Functions
-  const notify = () =>{
-    toast.success('Activity Has been completed!', {
+  const notify = () => {
+    toast.success("Activity Has been completed!", {
       position: "top-center",
       autoClose: 5000,
       hideProgressBar: false,
@@ -29,34 +29,34 @@ const Break = ({ list }) => {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      });
-  }
-  
+    });
+  };
+
   //Break value function
 
-  const breakSec = (e) =>{
+  const breakSec = (e) => {
     const value = e.currentTarget.value;
     setBreakTime(value);
-  }
-    
+  };
+
   return (
     <div className="informatin-list">
       <h4 className="my-4">Add A Break</h4>
       <div className="button">
-        <button onClick={breakSec} value='10' className=" flex-button">
-          <p className="btn-p">10s</p>
+        <button onClick={breakSec} value="10" className=" flex-button">
+          <p className="btn-p m-2">10s</p>
         </button>
-        <button onClick={breakSec} value='20' className=" flex-button">
-          <p>20s</p>
+        <button onClick={breakSec} value="20" className=" flex-button">
+          <p className="m-2">20s</p>
         </button>
-        <button onClick={breakSec} value='30'  className=" flex-button">
-          <p>30s</p>
+        <button onClick={breakSec} value="30" className=" flex-button">
+          <p className="m-2">30s</p>
         </button>
-        <button onClick={breakSec} value='40'  className=" flex-button">
-          <p>40s</p>
+        <button onClick={breakSec} value="40" className=" flex-button">
+          <p className="m-2">40s</p>
         </button>
-        <button onClick={breakSec} value='50'  className=" flex-button">
-          <p>50s</p>
+        <button onClick={breakSec} value="50" className=" flex-button">
+          <p className="m-2">50s</p>
         </button>
       </div>
       <div className="mt-5">
@@ -68,18 +68,6 @@ const Break = ({ list }) => {
         <h5 className="btn-text">Activity Completed</h5>
       </button>
       <ToastContainer />
-
-
-
-      
-
-
-
-
-
-
-
-
     </div>
   );
 };
