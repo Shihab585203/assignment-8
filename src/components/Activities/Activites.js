@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Break from '../Break/Break';
 import Information from '../Information/Information';
 import Item from '../Item/Item';
-import './Activites.css'
+import './Activites.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
+
 const Activites = () => {
     const [activites, setActivites] = useState([])
     const [list, setList] = useState([])
@@ -22,7 +25,7 @@ const Activites = () => {
         <div className='activites-container'>
 
             <div className="activites-item-container my-3 ">
-                <h2 className='  title'>ACTIVE GYM & FEETNESS CLUB</h2>
+            <h1> <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> HealthFit</h1>
                 <h5 className='mb-5'>Select today’s exercise</h5>
                 <div className='grid-items'>
                     {
