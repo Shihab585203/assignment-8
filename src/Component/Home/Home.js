@@ -1,5 +1,6 @@
 
 import React from 'react';
+import './Home.css'
 import Card from '../Card/Card';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
@@ -14,7 +15,7 @@ const Home = () => {
                 <Card></Card>
             </div>
 
-            <div className='col-3'>
+            <div className='col-3 sidebar-container'>
                 <Sidebar></Sidebar>
             </div>
         </section>
