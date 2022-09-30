@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Break.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -8,17 +8,11 @@ const Break = ({ list }) => {
   for (const time of list) {
     times = parseFloat(times + time.time);
   }
-  const [seconds, setSeconds] = useState([]);
 
-  //break value
+  //Break Time value
   const [breakTime, setBreakTime] = useState(0);
 
-  useEffect(() => {
-    fetch("data2.json")
-      .then((res) => res.json())
-      .then((data) => setSeconds(data));
-  }, []);
-  console.log(seconds);
+
   //Toast Functions
   const notify = () => {
     toast.success("Activity Has been completed!", {
